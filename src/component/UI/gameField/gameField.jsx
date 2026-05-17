@@ -1,6 +1,5 @@
 import React from 'react';
 import cl from './gameField.module.css'
-import Context from "../../../index";
 
 const GameField = () => {
     const ref = React.useRef();
