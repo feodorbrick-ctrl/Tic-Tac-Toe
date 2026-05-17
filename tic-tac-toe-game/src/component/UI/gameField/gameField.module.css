@@ -1,0 +1,15 @@
+.canvas {
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: #7c7c7c;
+    z-index: 10;
+    margin: 0;
+}
+
+@media (min-width: 530px) {
+    .canvas {
+        height: 500px;
+        width: 500px;
+    }
+}

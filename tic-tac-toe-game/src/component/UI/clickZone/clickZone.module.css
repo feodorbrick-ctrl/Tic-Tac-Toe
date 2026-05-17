@@ -1,0 +1,43 @@
+.button {
+    position: relative;
+    display: inline-block;
+    width: 132px;
+    height: 132px;
+    z-index: 100;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.clickZone {
+    margin: 0;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+}
+
+img {
+    position: absolute;
+    z-index: 101;
+    top: 50%;
+    left: 50%;
+    width: 118px;
+    transform: translate(-50%, -40%);
+    color: #7c7c7c;
+    height: 118px;
+}
+
+@media (min-width: 530px) {
+    .button {
+        width: 155px;
+        height: 155px;
+    }
+    .clickZone {
+        height: 500px;
+        width: 500px;
+    }
+    img {
+        width: 140px;
+        height: 140px;
+    }
+}

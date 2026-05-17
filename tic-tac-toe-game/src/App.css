@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  justify-items: center;
+}
+
+* {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+.winText {
+  font-weight: 900;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  z-index: 500;
+  color: #57d5ff;
+}
